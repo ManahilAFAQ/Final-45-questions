@@ -1,17 +1,12 @@
-//Assignment 2
+// ASSIGNMENT # 1
 
 //Storing a person name in a variable
 
-let personName:string = "Manahil";
+let personName = "Manahil";
+console.log(personName)
 
-//Printing a person name in lowercase
+//Printing a message to the person
 
-console.log("Lowercase:", personName.toLowerCase());
+let message:string = "hello would you like to learn some python today?";
+console.log(personName,message)
 
-//printing a person name in uppercase
-
-console.log("Uppercase:", personName.toUpperCase());
-
-//printing a person name in titile case
-
-console.log("Titlecase:", personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());

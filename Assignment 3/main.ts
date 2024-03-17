@@ -1,13 +1,17 @@
-//ASSIGNMENT # 3
+//Assignment 2
 
-//Storing a famous quote and its author
+//Storing a person name in a variable
 
-let quote:string = "If thing's go wrong don't go with them.";
+let personName:string = "Manahil";
 
-//Storing author name
+//Printing a person name in lowercase
 
-let author:string = "Manahil Afaq";
+console.log("Lowercase:", personName.toLowerCase());
 
-//Printing the message
+//printing a person name in uppercase
 
-console.log((quote),(author));
+console.log("Uppercase:", personName.toUpperCase());
+
+//printing a person name in titile case
+
+console.log("Titlecase:", personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());
